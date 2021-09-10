@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: black; */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    color: white;
+}
+.card{
+    width: 80%;
+    /* height: 20%; */
+    padding: .6rem;
+    margin: 2rem auto;
+    display: flex;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(128, 128, 128, 0.589);
+    box-shadow: 3px 3px 10px 3px rgba(128, 128, 128, 0.589);
+   
+  
+  
+}
+
+
+.right{
+    /* border: 2px solid black; */
+    margin: .4rem;
+    padding: .3rem;
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+    width: 65%;
+border-left:2px solid black ;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
+
+.left{
+    /* border: 2px solid black; */
+    margin: .4rem;
+    padding: .3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    color: white;
+   
+    
+/*   
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    /* height: 300px; */
+    /* background: linear-gradient(to left bottom,rgb(143, 57, 136) 10%,rgb(102, 104, 219)); */
+}
+
+.img-radius{
+
+    width: 90%;
+    /* height: 75%; */
+
+    
+}
+
+.information{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    margin: 4px 6px;
+  
+  justify-content: center;
+  /* align-items: center; */
+   
+}
+
+.info-heading{
+    line-height: 25px;
+    padding: 4px 4px;
+    margin: 4px 4px;
+    font-size: 1.2rem;
+}
+
+
+.info-author{
+    line-height: 25px;
+    padding: 4px 4px;
+    margin: 4px 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.info-description{
+    line-height: 23px;
+    padding: 2px 4px;
+    margin: 2px 4px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.buttons{
+    /* border: 2px solid green; */
+    margin: 10px 8px;
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.actions{
+    margin: 4px 8px;
+    /* padding: 4px 8px; */
+    width: 50%;
+}
+
+button{
+   
+        background-color: black; /* Green */
+        border: none;
+        color: white;
+        padding: 14px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 500;
+        
+
+}
+
+
+
